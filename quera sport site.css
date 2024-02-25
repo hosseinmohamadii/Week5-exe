@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter","Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1rem 0;
+}
+
+.header nav {
+  text-align: center;
+}
+
+.logo ul nav {
+  size: 5rem;
+}
+
+.header nav ul {
+  list-style-type: none;
+}
+
+.header nav ul li {
+  display: inline;
+  margin: 1rem;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.introduction {
+  background-image: url("/assets/images/background.jpg");
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.introduction .title h1{
+  text-align: center;
+  font-family: "Anta",sans-serif;
+}
+.title{
+  color: rgba(241, 241, 241, 0.7);
+}
+.title hr{
+  width: 80%;
+  margin: 0 auto;
+  height: 0;
+  border: 0.01rem solid rgba(0, 0, 0, 0.2);
+}
+.title a{
+  text-decoration: none;
+  color: rgba(241, 241, 241, 0.7);
+}
+.title .ball{
+  width: 12rem;
+  height: 12rem;
+  border: 1.3rem solid rgba(255, 255, 255, 0.02);
+  border-radius: 50%;
+}
+.title .ball-1{
+  width: 12rem;
+  height: 12rem;
+  border: 1.3rem solid rgba(255, 255, 255, 0.02);
+  border-radius: 50%;
+}
+.title .ball-2{
+  width: 12rem;
+  height: 12rem;
+  border: 1.3rem solid rgba(255, 255, 255, 0.02);
+  border-radius: 50%;
+}
+.title .ball-3{
+  width: 12rem;
+  height: 12rem;
+  border: 1.3rem solid rgba(255, 255, 255, 0.02);
+  border-radius: 50%;
+}
+.title .ball-4{
+  width: 12rem;
+  height: 12rem;
+  border: 1.3rem solid rgba(255, 255, 255, 0.02);
+  border-radius: 50%;
+}
+.title .ball-5{
+  width: 12rem;
+  height: 12rem;
+  border: 1.3rem solid rgba(255, 255, 255, 0.02);
+  border-radius: 50%;
+}
+.introduction .title {
+  width: 90%;
+  text-align: center;
+}
+
+.introduction .title h1 {
+  font-family: "IBM Plex serif","Inter", sans-serif;
+}
+
+.live {
+  background-color: #1e1e1e;
+  height: 100vh;
+  padding-top: 8rem;
+  color: white;
+}
+.row {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.row .column-3 {
+  flex: 3;
+}
+.column-3 h3{
+  justify-content: center;
+}
+.row .column-3 {
+  flex: 9;
+}
+
+.live .avatar {
+  width: 12rem;
+  height: 12rem;
+  border: 1.3rem solid rgba(255, 255, 255, 0.02);
+  border-radius: 50%;
+}
+
+.live .avatar-container {
+  text-align: center;
+}
+
+.live h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.l-table{
+  width: 100%;
+}
+.l-table th{
+  height: 70px;
+}
+.education {
+  padding: 8rem 0 2rem;
+}
+.news{
+  background-color:rgb(185, 176, 176);
+}
+.news{
+  padding: 8rem 0 2rem;
+}
+.education {
+    padding: 8rem 0 2rem;
+  }
+.section-title {
+  display: flex;
+  justify-content: center;
+}
+
+.section-title h3 {
+  letter-spacing: 0.4rem;
+  font-weight: 400;
+  border-bottom: 0.15rem solid hsla(24, 100%, 47%, 1);
+  width: fit-content;
+  height: fit-content;
+  padding-bottom: 0.2rem;
+}
+
+.position-detail {
+  margin-bottom:2rem;
+}
+
+.positions-container h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.positions-container .position-title {
+  font-family: "Hind","IBM Plex Serif", serif;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.education{
+  background-color: rgb(185, 176, 176);
+}
+.positions-container .position-title::after {
+  content: "\2022";
+  margin: 0 1rem;
+}
+
+.positions-container .position-duration {
+  letter-spacing: 0.1rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.position-desc {
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+.best-img{
+  width: 50rem;
+  height: 10rem;
+  border-radius: 1%;
+}
+
+.divider {
+  width: 80%;
+  margin: 0 auto;
+  height: 0;
+  border: 0.01rem solid rgba(0, 0, 0, 0.2);
+}
+
+.education {
+  padding-top: 4rem;
+}
+
+.live,
+.projects {
+  background-color: #1e1e1e;
+  padding: 8rem 0;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 1rem;
+  color: black;
+}
+
+td,
+th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235, 235, 235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250, 250, 250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245, 245, 245);
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.15);
+}
